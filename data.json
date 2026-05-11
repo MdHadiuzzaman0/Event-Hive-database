@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Global Tech Summit 2026",
+    "location": "Silicon Valley, CA",
+    "category": "Tech Conference",
+    "price": 499,
+    "duration": "3 Days",
+    "date": "2026-06-15",
+    "image": "https://tinyurl.com/3hv962xk",
+    "description": "The ultimate gathering for innovators and tech enthusiasts to discuss the future of AI."
+  },
+  {
+    "title": "Neon Beat Music Festival",
+    "location": "Miami, Florida",
+    "category": "Music Festival",
+    "price": 150,
+    "duration": "12 Hours",
+    "date": "2026-07-20",
+    "image": "https://tinyurl.com/3pwsujs6",
+    "description": "Experience an unforgettable night with top-tier DJs and a stunning laser light show."
+  },
+  {
+    "title": "Digital Art Exhibition",
+    "location": "London, UK",
+    "category": "Art & Culture",
+    "price": 25,
+    "duration": "5 Hours",
+    "date": "2026-08-05",
+    "image": "https://tinyurl.com/yc6xeysk",
+    "description": "Explore the fusion of technology and creativity in this immersive digital art showcase."
+  }
+]
