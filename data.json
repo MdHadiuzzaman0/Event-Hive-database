@@ -7,7 +7,31 @@
     "duration": "3 Days",
     "date": "2026-06-15",
     "image": "https://tinyurl.com/3hv962xk",
-    "description": "The ultimate gathering for innovators and tech enthusiasts to discuss the future of AI."
+    "participants": 200,
+    "description": "The Global Tech Summit 2026 is the ultimate gathering for innovators, developers, and tech visionaries from around the globe. This year’s summit focuses on the rapid evolution of Generative AI, the future of Quantum Computing, and sustainable technology solutions for the next decade. Spread across three action-packed days, the event features immersive sessions, hands-on coding bootcamps, and an exclusive showcase of next-generation hardware prototypes. Whether you're looking to network with top venture capitalists or learn from industry giants, this summit is designed to provide the tools and connections needed to shape the future of the digital world.",
+    "highlights": [
+      "Keynote by industry leaders",
+      "Hands-on AI workshops",
+      "Networking with top VCs",
+      "Exclusive hardware launches",
+      "Certified Participation",
+      "Access to all 5 stages"
+    ],
+    "organizer": "Tech Innovators Hub",
+    "rating": 4.9,
+    "reviews": 1240,
+    "ticketTiers": [
+      { "type": "General", "price": 499, "available": 200 },
+      { "type": "VIP", "price": 999, "available": 50 },
+      { "type": "VVIP", "price": 1999, "available": 10 }
+    ],
+    "schedule": [
+      { "time": "09:00 AM", "activity": "Registration & Welcome Coffee" },
+      { "time": "10:30 AM", "activity": "Opening Keynote: Future of AI" },
+      { "time": "01:00 PM", "activity": "Networking Lunch Break" },
+      { "time": "02:30 PM", "activity": "Concurrent Workshop Sessions" },
+      { "time": "05:00 PM", "activity": "Startup Pitch Competition" }
+    ]
   },
   {
     "title": "Neon Beat Music Festival",
@@ -17,7 +41,31 @@
     "duration": "12 Hours",
     "date": "2026-07-20",
     "image": "https://tinyurl.com/3pwsujs6",
-    "description": "Experience an unforgettable night with top-tier DJs and a stunning laser light show."
+    "participants": 330,
+    "description": "Get ready for a sensory revolution at the Neon Beat Music Festival 2026, where the vibrant energy of Miami meets the world's most talented electronic artists. This 12-hour non-stop marathon features a custom-built 360-degree stage designed to provide an immersive auditory and visual experience from every angle. From deep house to high-energy techno, the lineup is curated to keep you dancing under the stars. The festival also features an interactive light-art gallery, gourmet food trucks, and premium lounge areas for those looking to recharge between sets. It's more than just a concert—it's an unforgettable night of rhythm, light, and pure summer magic.",
+    "highlights": [
+      "International DJ Lineup",
+      "360-Degree Stage View",
+      "Immersive Laser Show",
+      "Premium Food & Beverage",
+      "Exclusive Merch Kit",
+      "Interactive Art Zones"
+    ],
+    "organizer": "Vibe Masters Entertainment",
+    "rating": 4.8,
+    "reviews": 850,
+    "ticketTiers": [
+      { "type": "General", "price": 150, "available": 500 },
+      { "type": "VIP Lounge", "price": 350, "available": 100 },
+      { "type": "Backstage Access", "price": 750, "available": 20 }
+    ],
+    "schedule": [
+      { "time": "04:00 PM", "activity": "Gates Open & Opening Act" },
+      { "time": "06:00 PM", "activity": "Sunset Deep House Set" },
+      { "time": "08:30 PM", "activity": "Main Stage Laser Show" },
+      { "time": "10:00 PM", "activity": "Headline Performance" },
+      { "time": "02:00 AM", "activity": "Festival Closing Set" }
+    ]
   },
   {
     "title": "Digital Art Exhibition",
@@ -27,6 +75,30 @@
     "duration": "5 Hours",
     "date": "2026-08-05",
     "image": "https://tinyurl.com/yc6xeysk",
-    "description": "Explore the fusion of technology and creativity in this immersive digital art showcase."
+    "participants": "Inclusive Entry",
+    "description": "Step into the future of creative expression at the London Digital Art Exhibition 2026. This immersive showcase explores the seamless fusion of traditional artistry and cutting-edge virtual reality. Wander through interactive galleries where art responds to your every movement, and explore high-definition NFT installations created by the world's leading digital creators. Our 'Living Canvas' section allows visitors to contribute to a real-time AI-generated masterpiece, blurring the lines between the artist and the audience. This exhibition is perfect for art enthusiasts, techies, and families looking for a unique and thought-provoking cultural journey in the heart of London.",
+    "highlights": [
+      "VR Art Experiences",
+      "NFT Living Gallery",
+      "AI Masterpiece Creation",
+      "Curator-led Tours",
+      "Digital Souvenirs",
+      "Photography Allowed"
+    ],
+    "organizer": "Modern Creative Collective",
+    "rating": 4.7,
+    "reviews": 412,
+    "ticketTiers": [
+      { "type": "Standard", "price": 25, "available": 150 },
+      { "type": "Student/Senior", "price": 15, "available": 50 },
+      { "type": "Premium (VR Kit Inc.)", "price": 60, "available": 30 }
+    ],
+    "schedule": [
+      { "time": "10:00 AM", "activity": "Exhibition Entry Starts" },
+      { "time": "11:30 AM", "activity": "Digital Curator Talk" },
+      { "time": "01:00 PM", "activity": "Interactive VR Workshop" },
+      { "time": "02:30 PM", "activity": "Live AI Art Session" },
+      { "time": "03:00 PM", "activity": "Gallery Tour Ends" }
+    ]
   }
 ]

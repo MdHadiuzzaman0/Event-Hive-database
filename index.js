@@ -34,6 +34,44 @@ async function run() {
       res.json(result)
     }) 
 
+    app.post("/events", async(req, res) => {
+      const newEvent = req.body;
+      const result = await eventCollection.insertOne(newEvent)
+      console.log(newEvent)
+      res.json(result)
+    })
+
+    app.delete("/events/:id", async(req, res) => {
+      const id = req.params.id
+      const idBSON = { _id: new ObjectId(id)}
+      const result = await eventCollection.deleteOne(idBSON)
+      res.json(result)
+    })
+
+    app.patch('/events/:id', async (req, res) => {
+      const getId = req.params.id
+      const findId = {_id: new ObjectId(getId)}
+      const { title, location, category, duration, price, date, image, description, organizer, participants } = req.body;
+
+    const modifiedData = {
+      $set: {
+        title: title,
+        location: location,
+        category: category,
+        duration: duration,
+        price: price,
+        date: date,
+        image: image,
+        description: description,
+        organizer: organizer,
+        participants: participants
+      }
+    };
+      console.log(modifiedData)
+      // const {title, location, category, duration, price, date, image, description, organizer, participants} 
+      const result = await eventCollection.updateOne(findId, modifiedData)
+      res.json(result)
+    })
 
     await client.db("admin").command({ ping: 1 });
     console.log("Pinged your deployment. You successfully connected to MongoDB!");
